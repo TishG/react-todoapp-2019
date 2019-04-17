@@ -12,3 +12,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+#todo {
+  border: none;
+  background-color: rgb(247, 247, 249);
+}
+
+#input-container {
+  background-color: rgb(247, 247, 249);
+  height: 57px;
+}
+
+#add-todo-button {
+  height: 31px;
+}
