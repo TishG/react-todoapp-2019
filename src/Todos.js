@@ -1,6 +1,7 @@
 import React from "react";
 
 const Todos = ({todos, deleteTodo}) => {
+    //start of ternary operator
     const todoList = todos.length > 0 ?
     todos.map(todo => {
     return <li className="list-group-item" key={todo.id}>
@@ -9,6 +10,9 @@ const Todos = ({todos, deleteTodo}) => {
     })
     :
     <h4 className="text-center text-secondary"> You have no todo's</h4>
+    //end of ternary operator
+    
+    //view
     return (
         <main className="todos-container">
                     <ul className="list-group">

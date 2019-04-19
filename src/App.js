@@ -28,7 +28,6 @@ class App extends Component {
   }
 
   render() {
-    console.log("state:", this.state.todos);
     return (
       <main className="App">
       <header className="bg-dark p-1">

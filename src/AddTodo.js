@@ -13,6 +13,7 @@ export default class AddTodo extends Component {
 
     handleSubmit = (e) => {
         e.preventDefault();
+        //passes in the whole state object, ex: {todo: "Do this, do that"} --> this.props.addTodo({todo: "Do this, do that"})
         this.props.addTodo(this.state);
         this.setState({
             todo: ''
